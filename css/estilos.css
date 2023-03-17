@@ -23,7 +23,10 @@ h1 {
   font-size: 2rem;
 }
 
-
+.teclado_response {
+  width: auto;
+  text-align: center;
+}
 
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
@@ -71,15 +74,3 @@ h1 {
 }
 
 
-@media screen and (max-width: 1200px) {
-
-  .tecla{
-    width: auto;
-    text-align: center;
-  }
-  .teclado_response {
-    width: auto;
-    text-align: center;
-  }
-
-}
